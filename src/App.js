@@ -6,7 +6,6 @@ import './App.css';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 
 // Functional component for the main application
 const App = () => (
@@ -21,8 +20,7 @@ const App = () => (
       {/* Route for individual exercise detail page, rendering ExerciseDetail component */}
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
     </Routes>
-    {/* Footer component at the bottom of the application */}
-    {/* <Footer /> */}
+   
   </Box>
 );
 
