@@ -3,7 +3,7 @@ import React from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 
 // Importing the hero banner image
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/images/banner.jpg';
 
 // Functional component for the HeroBanner section
 const HeroBanner = () => (
