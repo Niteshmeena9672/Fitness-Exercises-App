@@ -41,5 +41,4 @@ const HorizontalScrollbar = ({ data, setBodyPart, bodyPart , isBodyParts}) => (
     ))}
   </ScrollMenu>
 );
-
 export default HorizontalScrollbar;

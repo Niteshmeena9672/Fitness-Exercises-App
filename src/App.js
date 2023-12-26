@@ -20,7 +20,6 @@ const App = () => (
       {/* Route for individual exercise detail page, rendering ExerciseDetail component */}
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
     </Routes>
-   
   </Box>
 );
 
