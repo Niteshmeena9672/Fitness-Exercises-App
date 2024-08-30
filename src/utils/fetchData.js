@@ -1,6 +1,3 @@
-
-
-
 // Options for making a GET request to the Exercise Database API
 export const exerciseOptions = {
   method: 'GET',
