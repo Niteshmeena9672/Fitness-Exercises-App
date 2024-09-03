@@ -35,6 +35,16 @@
 
 
 
+
+
+<br/>
+
+
+
+
+<br />
+
+## Demo
 <br/>
 
 The project involves the creation of a responsive Fitness Exercise Suggestion Web App using React, MUI, and RapidAPI. The app will allow users to search for specific exercises or exercises related to a specific body part. Users will also be able to view all the details related to the exercise, as well as watch related videos on YouTube.
@@ -64,16 +74,6 @@ Overall, the app provides a user-friendly and intuitive interface to help users 
 - Watch the video of the exercise on youtube . 
 - The app is responsive and can adjust to every screen size.
 
-
-
-<br/>
-
-
-
-
-<br />
-
-## Demo
 
 
 
