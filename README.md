@@ -52,18 +52,33 @@ The project involves the creation of a responsive Fitness Exercise Suggestion We
 To use this app, follow these steps:
 
 1. Click on the "Exercise" button in the navbar, or scroll down to the exercise section.
-
+   <br/>
+    <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/1.png" alt="1"/>
+    <br/>
 2. In the exercise section, you will see a search bar and a carousel of body part images.
-
+   <br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/2.png" alt="2"/> 
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/3.png" alt="3"/> 
+<br/>
 3. To search for a specific exercise, type the name of the exercise into the search bar and click the search button. Alternatively, you can click on the body part image related to the exercise you're interested in.
-
-4. After your search, you will see 9 animated gifs with the name of the exercise according to your search. If you want to see more exercises, you can use the pagination component.
-
+<br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/4.png" alt="4"/>
+<br/>
+4. After your search, you will see 6 animated gifs with the name of the exercise according to your search. If you want to see more exercises, you can use the pagination component.
+<br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/5.png" alt="5"/>
+<br/>
 5. If you want to know more about a specific exercise, simply click on the animated gif of the exercise. This will redirect you to a page with details about the exercise, including a beautiful gif and some additional details.
-
-6. On the exercise details page, you will also see videos related to the exercise that are present on YouTube. If you want to watch the video, simply click on it, and it will redirect you to YouTube.com with the exact video.
-
-7. Finally, on the exercise details page, you will see similar exercises related to the one you searched for.
+<br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/6.png" alt="6"/>
+<br/>
+6. On the exercise details page, you will also see videos related to the exercise that are present on YouTube and similar exercise. If you want to watch the video, simply click on it, and it will redirect you to YouTube.com with the exact video.
+<br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/7.png" alt="7"/>
+<br/>
+<br/>
+ <img src="https://github.com/Niteshmeena9672/Fitness-Exercises-App/blob/main/fintess_exercise_demo_image_readme/8.png" alt="8"/>
+<br/>
 
 Overall, the app provides a user-friendly and intuitive interface to help users easily search for and learn about exercises.
 
