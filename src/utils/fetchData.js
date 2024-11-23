@@ -26,7 +26,7 @@ export const fetchData = async (url, options) => {
     const data = await res.json();
     return data;
   } catch (error) {
-    console.error('Error fetching data:', error.message);
-    throw error;
+    // Error is thrown for handling elsewhere, no console statements are used
+    throw new Error(`Error fetching data: ${error.message}`);
   }
 };
