@@ -3,7 +3,7 @@ export const exerciseOptions = {
   method: 'GET',
   headers: {
     'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
-    'X-RapidAPI-Key': '597c3c72d3msh0c322a1fe6fb7d1p10bce6jsn41cbdd9140df',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
   },
 };
 
@@ -12,18 +12,21 @@ export const youtubeOptions = {
   method: 'GET',
   headers: {
     'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-    'X-RapidAPI-Key': 'f0021db587msh781fb1cbef39856p11c183jsn45521d5d1c85',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
   },
 };
 
 // Function to fetch data from a given URL with specified options
 export const fetchData = async (url, options) => {
-  // Making a fetch request and waiting for the response
-  const res = await fetch(url, options);
-
-  // Parsing the response data as JSON
-  const data = await res.json();
-
-  // Returning the parsed data
-  return data;
+  try {
+    const res = await fetch(url, options);
+    if (!res.ok) {
+      throw new Error(`HTTP error! Status: ${res.status}`);
+    }
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching data:', error.message);
+    throw error;
+  }
 };
